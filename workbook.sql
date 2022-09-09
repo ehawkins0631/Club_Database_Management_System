@@ -35,7 +35,7 @@ USE mydb;
 /* start with the letter "N", sort your results by state capital                */
 /* ---------------------------------------------------------------------------- */
 
---	SELECT * FROM us_state WHERE abbreviation LIKE "N%" ORDER BY name
+-- SELECT * FROM us_state WHERE abbreviation LIKE "N%" ORDER BY name
 
 
 
@@ -44,8 +44,10 @@ USE mydb;
 /* SECTION 3: INSERT statements                                                 */
 /* ============================================================================ */
 
-SELECT * FROM mydb.club_member
-
+-- INSERT INTO club_member
+-- SET first_name = "Harrison",
+-- last_name = "Kong",
+-- phone_number = "3101234567"
 
 
 
@@ -57,11 +59,10 @@ SELECT * FROM mydb.club_member
 /* and phone_number to "9998887777"                                             */
 /* ---------------------------------------------------------------------------- */
 
-
-
-
-
-
+-- INSERT INTO club_member
+-- SET first_name = "Jhon",
+-- last_name = "Doe",
+-- phone_number = "9998887777"
 
 
 /* ============================================================================ */
@@ -69,6 +70,9 @@ SELECT * FROM mydb.club_member
 /* ============================================================================ */
 
 
+--DELETE FROM club_member	
+-- WHERE first_name = "Harrison"
+-- AND last_name = "Kong"
 
 
 
