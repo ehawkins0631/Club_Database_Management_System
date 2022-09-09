@@ -4,17 +4,16 @@ USE mydb;
 /* SECTION 1: SELECT statements                                                 */
 /* ============================================================================ */
 
+-- SELECT name, capital FROM us_state WHERE name = "California"
 
-
-
-
+-- SELECT * FROM us_state WHERE area_size <= 10000
 
 /* ---- TASK 1 ---------------------------------------------------------------- */
 /* Write an SQL statement to find out what is the state capital of Oregon       */
 /* hint: the names of the columns you need are: name and capital                */
 /* ---------------------------------------------------------------------------- */
 
-
+-- SELECT name, capital FROM us_state WHERE name = "Oregon"
 
 
 
@@ -24,9 +23,11 @@ USE mydb;
 /* SECTION 2: SELECT statements with pattern matching and sorting               */
 /* ============================================================================ */
 
+-- SELECT * FROM us_state ORDER BY area_size DESC
 
+-- SELECT * FROM us_state WHERE name LIKE "M%" ORDER BY name
 
-
+-- SELECT * FROM us_state WHERE name LIKE "N%" ORDER BY name
 
 
 /* ---- TASK 2 ---------------------------------------------------------------- */
@@ -34,7 +35,7 @@ USE mydb;
 /* start with the letter "N", sort your results by state capital                */
 /* ---------------------------------------------------------------------------- */
 
-
+--	SELECT * FROM us_state WHERE abbreviation LIKE "N%" ORDER BY name
 
 
 
@@ -43,7 +44,7 @@ USE mydb;
 /* SECTION 3: INSERT statements                                                 */
 /* ============================================================================ */
 
-
+SELECT * FROM mydb.club_member
 
 
 
