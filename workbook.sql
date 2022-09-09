@@ -69,11 +69,9 @@ USE mydb;
 /* SECTION 4: DELETE statements                                                 */
 /* ============================================================================ */
 
-
---DELETE FROM club_member	
--- WHERE first_name = "Harrison"
--- AND last_name = "Kong"
-
+/*--DELETE FROM club_member	
+--	WHERE first_name = "Harrison"
+--	AND last_name = "Kong"
 
 
 
@@ -83,7 +81,8 @@ USE mydb;
 /* if the phone_number is "9998887777"                                          */  
 /* ---------------------------------------------------------------------------- */
 
-
+/*--	DELETE FROM club_member
+--	WHERE  phone_number = "9998887777"
 
 
 
@@ -96,12 +95,11 @@ USE mydb;
 /* SECTION 5: Joining tables                                                    */
 /* ============================================================================ */
 
-
-
-
-
-
-
+/*SELECT club_member.member_id, first_name, 
+/*last_name, description, amount, due_date
+/*FROM club_member, invoice
+/*WHERE club_member.member_id =
+/*invoice.member_id
 
 /* ---- TASK 5 ---------------------------------------------------------------- */
 /* Using the above example as a guide,                                          */
