@@ -101,13 +101,16 @@ USE mydb;
 /*WHERE club_member.member_id =
 /*invoice.member_id
 
+
+
+
 /* ---- TASK 5 ---------------------------------------------------------------- */
 /* Using the above example as a guide,                                          */
 /* write an SQL statement to:                                                   */
 /*                                                                              */
 /* 1. include these columns in your results:                                    */
-/*    first_name, middle_name, last_name, professional_title, tier.description  */
-/*                                                                              */
+/*  first_name, middle_name, last_name, professional_title, tier.description  */
+
 /* 2. your columns will come from the tables club_member and tier               */
 /*                                                                              */
 /* 3. linking the tier_code column of the table club_member                     */
@@ -118,6 +121,11 @@ USE mydb;
 /* ---------------------------------------------------------------------------- */
 
 
+SELECT first_name, middle_name, last_name, 
+professional_title, tier.description
+FROM club_member, tier
+WHERE club_member.tier_code = tier.code
+ORDER BY last_name
 
 
 
