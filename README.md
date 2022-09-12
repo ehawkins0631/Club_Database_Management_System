@@ -13,6 +13,7 @@ Summary:
 * Deleted data from a database with DELETE statements
 * Joined tables together to produce meaningful reports
 
+
 Figure 1:
 
 ![image](https://user-images.githubusercontent.com/101227930/189572726-3a666d59-6a0b-49bd-981a-c5029a93ea09.png)
