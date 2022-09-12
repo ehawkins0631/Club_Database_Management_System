@@ -1,5 +1,6 @@
 Club Database Management System
 
+
 In this project, I gained more hands-on experience working with a relational database using MySQL Workbench from Oracle. The basic knowledge I learned allowed you to work with any other relational database. At the end of this project, I was able to create a billing report and a club member roster.
 
 Summary:
