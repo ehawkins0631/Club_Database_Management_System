@@ -5,6 +5,7 @@ In this project, I gained more hands-on experience working with a relational dat
 
 Summary:
 
+
 * Knew what tables are and write basic SELECT statements
 * Used wildcard characters for pattern matching, and sorted query results
 * Added data to a database with INSERT statements
