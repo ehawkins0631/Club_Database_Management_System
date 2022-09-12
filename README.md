@@ -17,3 +17,6 @@ Figure 1:
 
 Figure 2:
 
+![image](https://user-images.githubusercontent.com/101227930/189573988-030ba67d-851a-4f06-9a46-25bc3c6797e6.png)
+
+
