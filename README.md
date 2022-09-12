@@ -11,9 +11,12 @@ Summary:
 * Joined tables together to produce meaningful reports
 
 Figure 1:
+
 ![image](https://user-images.githubusercontent.com/101227930/189572726-3a666d59-6a0b-49bd-981a-c5029a93ea09.png)
 
 
 Figure 2:
+
+![image](https://user-images.githubusercontent.com/101227930/189572903-92c2f2cf-29a6-4e21-9210-cd4dc131c1c3.png)
 
 
